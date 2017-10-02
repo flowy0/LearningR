@@ -1,0 +1,18 @@
+---
+title: "R Notebook - Exploring Iris"
+output: html_notebook
+---
+
+```{r}
+names(iris)
+str(iris)
+summary(iris)
+```
+
+
+```{r}
+plot(iris, col=iris$Species) 
+
+```
+
+
